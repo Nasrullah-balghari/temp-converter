@@ -1,0 +1,87 @@
+body {
+    background-color: #ffeaa7;
+    position: relative;
+    font-family: poppins;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-BoldItalic.ttf);
+}
+
+#temperature {
+    position: absolute;
+    /* top: 8rem;
+    left: 15rem; */
+    top: 140px;
+    left: 250px;
+    background-color: #fab1a0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+#number {
+    border: none;
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#number:focus {
+    outline: none;
+}
+
+#Celc_fah {
+    width: 90px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+#Celc_fah:focus {
+    outline: none;
+}
+
+#submit {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+}
+
+#submit:hover {
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0.7;
+}
+
+#submit {
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 460px) {
+    #temperature {
+        position: absolute;
+        top: 10rem;
+        left: 0rem;
+        width: 100%;
+
+    }
+    label {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+}
